@@ -17,5 +17,5 @@ Các ứng dụng hiểu mã trạng thái HTTP không cần phải biết tất
 # Dòng trạng thái HTTP (Mã trạng thái HTTP + Cụm từ chỉ lý do)
 
 |Mã trạng thái|Cụm từ chỉ lý do|Giải thích lỗi| 
-|--------|-------|-------|---------|-------|
+|-|-|-|
 |100|Continue| Yêu cầu đã được hoàn thành và phần còn lại của tiến trình có thể tiếp tục.|

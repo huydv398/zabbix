@@ -1,6 +1,6 @@
 # Zabbix
-1. [Tổng quan, khái niệm Zabbix và các thuật ngữ được sử dụng trong Zabbix](Zabbix/overview.md)
-2. [Cài đặt và bắt đầu với Zabbix]()
+1. [Tổng quan, khái niệm Zabbix và các thuật ngữ được sử dụng trong Zabbix](Zabbix/overview1.md)
+2. [Cài đặt và bắt đầu với Zabbix](Zabbix/setup.md)
 2. [Configuration Zabbix]()
 2. [Sevice]()
 2. [Monitor website]()

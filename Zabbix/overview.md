@@ -60,11 +60,11 @@ Cung cấp giao diện có thể lập trình cho z\ để thao tác hàng loạ
 * Giám sát từ xa dễ dàng bằng cách sự dụng poxy Zabbix
 
 ## Các thuật ngữ được sử dụng
-* Host: Một thiết bị được kết nối mạng mà bạn muốn giám sát
-* host-group: nhóm lại các máy chủ; nó có thể chứa máy chủ và templates. host and templates trong hót-group không được liên kết với nhau theo bất kỳ cách nào. Host-group được sử dụng khi gán quyền truy cập vào máy chủ cho các nhóm người dùng khác nhau.
-* item: Một phần dữ liệu cụ thể mà bạn muốn nhận từ máy chủ lưu trữ, một chỉ số dữ liệu.
-* Value_preprocessing: Một sự chuyển đổi của giá trị số liệu đã nhận được trước khi lưu nó vào cơ sở dữ liệu
-* trigger: một biểu thức logic xác định ngưỡng vấn đề và được sử dụng để "đánh giá" dữ liệu nhận được trong các mục
-* event: một lần xuất hiện duy nhất của điều gì đó đáng được chú ý.
-* Event tag: Một điểm đánh dấu được xác định trước cho sự kiện. Nó có thể được sử dụng trong tương quan sự kiện, tạo chi tiết quyền,
-* Event correlation: Một phương pháp giải quyết các vấn đề mootjcachs linh hoạt và chính xác. Ví dụ bạn có thể xác định rằng sự cố được báo cáo bởi một trình kích hoạt khác, thậm chí có thể sử dụng một phương pháp khác.
+* **Host**: Một thiết bị được kết nối mạng mà bạn muốn giám sát
+* **host-group**: nhóm lại các máy chủ; nó có thể chứa máy chủ và templates. host and templates trong hót-group không được liên kết với nhau theo bất kỳ cách nào. Host-group được sử dụng khi gán quyền truy cập vào máy chủ cho các nhóm người dùng khác nhau.
+* **item**: Một phần dữ liệu cụ thể mà bạn muốn nhận từ máy chủ lưu trữ, một chỉ số dữ liệu.
+* **Value_preprocessing**: Một sự chuyển đổi của giá trị số liệu đã nhận được trước khi lưu nó vào cơ sở dữ liệu
+* **trigger**: một biểu thức logic xác định ngưỡng vấn đề và được sử dụng để "đánh giá" dữ liệu nhận được trong các mục
+* **event**: một lần xuất hiện duy nhất của điều gì đó đáng được chú ý.
+* **Event tag**: Một điểm đánh dấu được xác định trước cho sự kiện. Nó có thể được sử dụng trong tương quan sự kiện, tạo chi tiết quyền,
+* **Event correlation**: Một phương pháp giải quyết các vấn đề mootjcachs linh hoạt và chính xác. Ví dụ bạn có thể xác định rằng sự cố được báo cáo bởi một trình kích hoạt khác, thậm chí có thể sử dụng một phương pháp khác.

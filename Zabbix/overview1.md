@@ -8,7 +8,7 @@
 * Có thể giám sát 100.000 thiết bị
 * Có thể thu thập lượng dữ liệu lịch sử hằng ngày lên đến mức **TB**
 ## Điều gì mà Người dùng nên chọn Zabbix
-**ALL-IN-ONE**- Tất cả trong một giải pháp mang tên Zabbix
+**ALL-IN-ONE**: Tất cả trong một giải pháp mang tên Zabbix
 
 ![huydv](../images/Screenshot_12.png)
 

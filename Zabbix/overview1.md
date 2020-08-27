@@ -12,10 +12,6 @@
 
 ![huydv](../images/Screenshot_12.png)
 
-### Dễ dàng bảo trì
-* Tất cả các thành phần đều tương thích trong một bản phát hành chính thức
-* Zabbix Agent tương thích kể từ phiên bản Zabbix 1.0
-
 ### Lợi ích của Zabbix
 * Tất cả các nền tảng giám sát phổ biến nhất được gói gọn trong Zabbix
 * Miễn phí- Là nền tảng mã nguồn mở được support toàn cầu 
@@ -26,7 +22,11 @@
 ## Kiến trúc của Zabbix
 ![huydv](../images/Sc_1.png)
 
-### Các mức của kiến trúc
+### Dễ dàng bảo trì
+* Tất cả các thành phần đều tương thích trong một bản phát hành chính thức
+* Zabbix Agent tương thích kể từ phiên bản Zabbix 1.0
+
+## Các mức của kiến trúc
 * Layer Hardware: Là phần cứng của máy chủ
 
 ![huydv](../images/Screenshot_1.png)

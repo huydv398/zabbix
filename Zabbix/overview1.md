@@ -19,13 +19,13 @@
 * **GPL-2.0 License**- Không mất phí giấy phép 
 * **TCO Low**- quá trình duy trì sử dụng ít tốn kém về chi phí
 * **No vender lock in** - nhà cung cấp không bao giờ khóa
-## Kiến trúc của Zabbix
-![huydv](../images/Sc_1.png)
+
 
 ### Dễ dàng bảo trì
 * Tất cả các thành phần đều tương thích trong một bản phát hành chính thức
 * **Zabbix Agent** tương thích kể từ phiên bản Zabbix 1.0
-
+## Kiến trúc của Zabbix
+![huydv](../images/Sc_1.png)
 ## Các mức của kiến trúc
 * **Layer Hardware**: Là phần cứng của máy chủ
 

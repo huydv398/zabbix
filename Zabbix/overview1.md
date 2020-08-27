@@ -14,27 +14,27 @@
 
 ### Lợi ích của Zabbix
 * Tất cả các nền tảng giám sát phổ biến nhất được gói gọn trong Zabbix
-* Miễn phí- Là nền tảng mã nguồn mở được support toàn cầu 
+* **Miễn phí**- Là nền tảng mã nguồn mở được support toàn cầu 
 * Dễ dàng sử dụng các dịch vụ thương mại nếu cần
-* GPL-2.0 License- Không mất phí giấy phép 
-* TCO low- quá trình duy trì sử dụng ít tốn kém về chi phí
-* No vender lock in - nhà cung cấp không bao giờ khóa
+* **GPL-2.0 License**- Không mất phí giấy phép 
+* **TCO Low**- quá trình duy trì sử dụng ít tốn kém về chi phí
+* **No vender lock in** - nhà cung cấp không bao giờ khóa
 ## Kiến trúc của Zabbix
 ![huydv](../images/Sc_1.png)
 
 ### Dễ dàng bảo trì
 * Tất cả các thành phần đều tương thích trong một bản phát hành chính thức
-* Zabbix Agent tương thích kể từ phiên bản Zabbix 1.0
+* **Zabbix Agent** tương thích kể từ phiên bản Zabbix 1.0
 
 ## Các mức của kiến trúc
-* Layer Hardware: Là phần cứng của máy chủ
+* **Layer Hardware**: Là phần cứng của máy chủ
 
 ![huydv](../images/Screenshot_1.png)
-* OS: Zabbix hỗ trợ các hệ điều hành Unix, Linux, Mac, AIX(IBM), Solaris(SUn/Oracle), Window, FreeBSD, OpenBSD,...
-* Network: Zabbix hỗ trợ giam sát các thiết bị có kết nối mạng
-* Virtual layer:
-* Middleware: Các phần mềm trung gian mà có thể giám sát
-* Business applications: Các ứng dụng mà khách hàng phải phụ thuộc.
+* **OS**: Zabbix hỗ trợ các hệ điều hành Unix, Linux, Mac, AIX(IBM), Solaris(SUn/Oracle), Window, FreeBSD, OpenBSD,...
+* **Network**: Zabbix hỗ trợ giam sát các thiết bị có kết nối mạng
+* **Virtual layer**:
+* **Middleware**: Các phần mềm trung gian mà có thể giám sát
+* **Business applications**: Các ứng dụng mà khách hàng phải phụ thuộc.
 ## Distributed environment
 
 ![huydv](../images/Screenshot_2.png)

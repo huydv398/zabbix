@@ -4,7 +4,7 @@
 
 
 
-* Là giải pháp giám sát cấp doanh nghiệp mã nguồn mở phổ biến
+* Là giải pháp giám sát **máy chủ** và **dịch vụ** doanh nghiệp mã nguồn mở phổ biến
 * Có thể giám sát 100.000 thiết bị
 * Có thể thu thập lượng dữ liệu lịch sử hằng ngày lên đến mức **TB**
 ## Điều gì mà Người dùng nên chọn Zabbix

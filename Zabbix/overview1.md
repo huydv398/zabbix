@@ -2,9 +2,7 @@
 
 # Zabbix 5.0
 
-**Mục lục**
 
-[ ](#tansuat)
 
 * Là giải pháp giám sát cấp doanh nghiệp mã nguồn mở phổ biến
 * Có thể giám sát 100.000 thiết bị

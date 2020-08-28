@@ -18,7 +18,7 @@ Zabbix thực hiện kiểm tra dựa trên thời gian, cũng có thể lên l�
 |**Network**|Packet/bytes transfered||
 ||Errors/dropped packets||
 ||Collisions||
-|-|-|-|
+|_ |_ | _|
 |**CPU**|Load average||
 ||CPU idle/usage||
 ||CPU utilization data per individual process||

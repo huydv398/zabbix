@@ -15,7 +15,7 @@
 
     4.1 [Các mức của kiến trúc](#4.1)
 
-    4.2 [Môi trường giams sát phân tán](#4.2)
+    4.2 [Môi trường giám sát phân tán](#4.2)
 
     4.3 [Giao thức thu thập dữ liệu](#4.3)
 

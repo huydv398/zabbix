@@ -189,7 +189,7 @@ Có 2 phương pháp được Zabbix sử dụng để lấy thông tin từ cá
 * Vào một thời điểm cụ thể
     * Sẵn sàng để kiểm tra công việc
     * Bắt đầu 9:00 giờ vào làm việc
-<a name="4.4"></a>
+<a name="4.5"></a>
 
 ## Mã hóa và xác thực
 Mã hóa và xác thực mạnh mẽ cho tất cả các thành phần dựa trên TLS(Transport Layer Security- Bảo mật lớp Transport là một giao thức lớp Upper(ULP) chạy trên TCP. TLS cung cấp tính toàn vẹn và bảo mật của dữ liệu đầu cuối)

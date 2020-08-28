@@ -16,5 +16,30 @@ Zabbix thực hiện kiểm tra dựa trên thời gian, cũng có thể lên l�
 |Device|Agent|Ghi chú|
 |-|-|-|
 |Network|Packet/bytes transfered||
-|-|Errors/dropped packets|-|
+||Errors/dropped packets||
 ||Collisions||
+|CPU|Load average||
+||CPU idle/usage||
+||CPU utilization data per individual process||
+|Memory|Free/used memory||
+||Swap/pagefile utilization||
+|Disk|Space free/used||
+||Read and write I/O||
+|Service|Process status|Trạng thái các Process đang hoạt động|
+||Process memory usage|Các Process đang sử dụng bộ nhớ ram|
+||Service status|Giám sát các dịch vụ như http, ssh , ntp, mysql, ftp,...|
+||Windows service status|Giám sát các trạng thái dịch vụ của Window|
+||DNS resolution||
+||TCP connectivity|Các kết nối TCP|
+||TCP response time|Thời gian phản hồi TCP|
+|File|File size/time|Thời gian sử dụng và kích thước của Fiole|
+||Exits|Sự tồn tại của file|
+||Checksum|Sự thay đổi của file|
+||MD5 hash||
+||RegExp search||
+|Log|Text log||
+||Window Eventlog||
+|**Khác**|Thời gian hoạt động của hệ thống||
+||Giờ hệ thống||
+||Người dùng đã kết nối||
+||Bộ đếm hiệu suất(window)||

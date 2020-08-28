@@ -45,7 +45,7 @@ Proxy có thể được sử dụng để sử dụng để thu thập dữ li�
 ![huydv](../images/Screenshot_4.png)
 
 Một Proxy Zabbix có thể được sử dụng để:
-* Giám sát các vị trí từ xa.
+* Vị trí từ xa được giám sát bởi 1 Zabbix Proxy.
 * Giảm tải máy chủ Zabbix khi giám sát hàng nghìn thiết bị.
 * Đơn giản hóa việc giám sát phân tán
 
@@ -76,6 +76,7 @@ Có 2 phương pháp được Zabbix sử dụng để lấy thông tin từ cá
 * Vào một thời điểm cụ thể
     * Sẵn sàng để kiểm tra công việc
     * Bắt đầu 9:00 giờ vào làm việc
+
 ## Mã hóa và xác thực
 Mã hóa và xác thực mạnh mẽ cho tất cả các thành phần dựa trên TLS(Transport Layer Security- Bảo mật lớp Transport là một giao thức lớp Upper(ULP) chạy trên TCP. TLS cung cấp tính toàn vẹn và bảo mật của dữ liệu đầu cuối)
 
@@ -83,15 +84,15 @@ Mã hóa và xác thực mạnh mẽ cho tất cả các thành phần dựa tr�
 
 ## Sensors & Small devices
 ### Problem detection - Phát hiện sự cố
-Làm thế nào để phát hiện sự cố trong luồng dữ liệu? 
+1. Làm thế nào để phát hiện sự cố trong luồng dữ liệu? 
 
-Làm thế nào để loại bỏ cảnh báo lỗi?
+2. Làm thế nào để loại bỏ cảnh báo lỗi?
 
 Xác định đúng các điều kiện của vấn đề và đúng ý mà vẫn an toàn
 * Tận dụng history
 * Phân tích History
 
-Khác biệt sự cố biến mất và sự cố được giải quyết
+3. Khác biệt sự cố biến mất và sự cố được giải quyết
 
 Hysteresis 
 
@@ -99,8 +100,8 @@ No Flapping
 
 Trigger - Định nghĩa vấn đề
 
-Nhận diện các vấn đề
-* anomaly detection: Phát hiện bất thường
+### Nhận diện các vấn đề
+* **anomaly detection**: Phát hiện bất thường
 
 Compare with a norm, where norm is systemc state in the past
 
@@ -110,12 +111,12 @@ So sánh với một tiêu chuẩn, là trạng thái hệ thống trong quá kh
 
 Số lượng giao dịch trung bình mỗi giây trong giờ qua ít hơn 2 lần so với số lượng giao dịch trong mỗi giây cùng kỳ tuần trước
 
-* Problem forecasting: Dự báo sự cố
-* Trend Prediction: Dự đoán các xu hướng
+* **Problem forecasting**: Dự báo sự cố
+* **Trend Prediction**: Dự đoán các xu hướng
 
 Cách Zabbix phản ứng với các vấn đề 
 
-* Possible reactions- phản ứng có thể xảy ra 
+* **Possible reactions**- phản ứng có thể xảy ra 
     * Tự động giải quyết vấn đề
     * Gửi một thông điệp cho user hoặc user group
     * Mở ticket trong nhân viên hỗ trợ hệ thống

@@ -1,18 +1,27 @@
 
 
 # Zabbix 5.0
-#### 1. [Giới thiệu tổng quan](#1)
-##### 1.1 [Zabbix là gì?](#1.1)
-##### 1.2 [Lịch sử hình thành và phát triển](#1.2)
-##### 1.3 [Vòng đời của Zabbix](#1.3)
-#### 2. [Tính năng của Zabbix](#2)
-#### 3. [Lợi ích của Zabbix](#3)
-#### 4. [Kiến trúc và cơ chế](#4)
-##### 4.1 [Các mức của kiến trúc](#4.1)
-##### 4.2 [Môi trường giams sát phân tán](#4.2)
-##### 4.3 [Giao thức thu thập dữ liệu](#4.3)
-##### 4.4 [Tần suất thực hiện kiểm tra](#4.4)
-##### 4.5 [Mã hóa và xác thực](#4.5)
+1. [Giới thiệu tổng quan](#1)
+
+    1.1 [Zabbix là gì?](#1.1)
+
+    1.2 [Lịch sử hình thành và phát triển](#1.2)
+
+    1.3 [Vòng đời của Zabbix](#1.3)
+
+2. [Tính năng của Zabbix](#2)
+3. [Lợi ích của Zabbix](#3)
+4. [Kiến trúc và cơ chế](#4)
+
+    4.1 [Các mức của kiến trúc](#4.1)
+
+    4.2 [Môi trường giams sát phân tán](#4.2)
+
+    4.3 [Giao thức thu thập dữ liệu](#4.3)
+
+    4.4 [Tần suất thực hiện kiểm tra](#4.4)
+
+    4.5 [Mã hóa và xác thực](#4.5)
 
 <a name="1"></a>
 

@@ -171,7 +171,7 @@ Có 2 phương pháp được Zabbix sử dụng để lấy thông tin từ cá
 ### Pull 
 * **Service checks:** HTTP, SSH, IMAP, NTP and other
 * **Passive agent**: 
-* Script execution ia SSH and Telnet
+* Script execution via SSH and Telnet
 ### Push
 * Active check
 * Zabbix Trapper and SNMP traps

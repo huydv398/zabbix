@@ -27,4 +27,4 @@ option:
 1. [Các thuật ngữ được sử dụng trong Zabbix](Zabbix/overview.md)
 2. [Các đặc trưng của Zabbix](Zabbix/features.md)
 
-Giới thiệu tổng quan về Zabbix
+Chuỗi bài viết tổng quan về Zabbix, Giới thiệu tổng quan về Zabbix

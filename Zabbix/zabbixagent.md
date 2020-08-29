@@ -3,9 +3,9 @@
 
     1.1 [Polling and trapping support](#Polling)
 
-        [1.1.1 Passive checks (polling)](#Passive)
+    * 1.1.1 [Passive checks (polling)](#Passive)
 
-        [1.1.2 Active checks (trapping)](#Active)
+    * 1.1.2 [Active checks (trapping)](#Active)
     
     1.2 [Agent functions](#functions)
 

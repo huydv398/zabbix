@@ -1,45 +1,42 @@
 # METRIC COLLECTION
-1. [Zabbix Agent](#Zabbix)
+### 1. [Zabbix Agent](#Zabbix)
 
-    1.1 [Polling and trapping support](#Polling)
+1.1 [Polling and trapping support](#Polling)
 
-    * 1.1.1 [Passive checks (polling)](#Passive)
+* 1.1.1 [Passive checks (polling)](#Passive)
 
-    * 1.1.2 [Active checks (trapping)](#Active)
-    
-    1.2 [Agent functions](#functions)
+* 1.1.2 [Active checks (trapping)](#Active)
 
-    1.3 [Extending Zabbix agent](#Extending)
+1.2 [Agent functions](#functions)
 
-    1.4 [Log monitoring](#Log)
+1.3 [Extending Zabbix agent](#Extending)
 
-2. [Giám sát không cần Agent](#khong)
+1.4 [Log monitoring](#Log)
 
-	2.1 [Kiểm tra dịch vụ mạng](#tra)
-	
-	2.2 [ICMP ping](#ICMP)
-	
-	2.3 [Remote check](#Remote)
-	
-	2.4 [Các dịch vụ mạng](#net)
-	
-	2.5 [Kiểm tra TCP port](#port)
-	
-	2.6 [ICMP ping](#ping) 
-	
-	2.7 [SSH & Telnet](#SSH)
-3. [SNMP and IPMI agents](#and)
+### 2. [Giám sát không cần Agent](#khong)
+2.1 [Kiểm tra dịch vụ mạng](#tra)
 
-    3.1 [SNMP support](#MP)
+2.2 [ICMP ping](#ICMP)
 
-    3.2 [IPMI Agent](#MI)
-4. [End user web monitoring](#web)
-    
-    4.1 [Mô phỏng trải nghiệm người dùng](#user)
-	
-	4.2 [Các chức năng được bổ sung](#sung)
-	
-	4.3 [Được sử dụng các Templates](#Templates)
+2.3 [Remote check](#Remote)
+
+2.4 [Các dịch vụ mạng](#net)
+
+2.5 [Kiểm tra TCP port](#port)
+
+2.6 [ICMP ping](#ping) 
+
+2.7 [SSH & Telnet](#SSH)
+### 3. [SNMP and IPMI agents](#and)
+3.1 [SNMP support](#MP)
+
+3.2 [IPMI Agent](#MI)
+### 4. [End user web monitoring](#web)
+4.1 [Mô phỏng trải nghiệm người dùng](#user)
+
+4.2 [Các chức năng được bổ sung](#sung)
+
+4.3 [Được sử dụng các Templates](#Templates)
 
 <a name="Zabbix"></a>
 

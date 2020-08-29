@@ -27,6 +27,7 @@
 
 
 ## Giới thiệu tổng quan
+Best Monitoring Tool - Zabbix
 <a name="1.1"></a>
 
 ### Zabbix là gì?
@@ -39,7 +40,7 @@
 
 <a name="1.2"></a>
 
-### Lịch sử hình thành và phát triển.
+### Lịch sử hình thành và phát triển của Zabbix.
 
 ![huydv](../images/Screenshot_14.png)
 
@@ -134,7 +135,7 @@ Zabbix là một giải pháp giám sát mạng tích hợp và cung cấp nhi�
 <a name="4.1"></a>
 
 
-### Các mức của kiến trúc
+### Các mức của kiến trúc trong Zabbix
 ![huydv](../images/Sc_1.png)
 * **Layer Hardware**: Là phần cứng của máy chủ
 
@@ -146,7 +147,7 @@ Zabbix là một giải pháp giám sát mạng tích hợp và cung cấp nhi�
 * **Business applications**: Các ứng dụng mà khách hàng phải phụ thuộc.
 <a name="4.2"></a>
 
-## Distributed environment
+## Distributed environment -  Môi trường phân tán tron Zabbix
 
 ![huydv](../images/Screenshot_2.png)
 
@@ -164,7 +165,7 @@ Proxy chỉ yêu cầu một kết nối TCP với máy chủ Zabbix, như vậy
 >**Chú ý**: Zabbix Proxy phải được sử dụng một cơ sở dữ liệu riêng biệt. Trỏ nó vào cơ sở dữ liệu máy chủ Zabbix sẽ bị phá vỡ cấu hình
 <a name="4.3"></a>
 
-## Giao thức thu thập dữ liệu
+## Giao thức thu thập dữ liệu trong Zabbix
 
 Có 2 phương pháp được Zabbix sử dụng để lấy thông tin từ các Agent: **Push** & **Pull**
 ### Pull 
@@ -191,7 +192,7 @@ Có 2 phương pháp được Zabbix sử dụng để lấy thông tin từ cá
     * Bắt đầu 9:00 giờ vào làm việc
 <a name="4.5"></a>
 
-## Mã hóa và xác thực
+## Mã hóa và xác thực trong Zabbix
 Mã hóa và xác thực mạnh mẽ cho tất cả các thành phần dựa trên TLS(Transport Layer Security- Bảo mật lớp Transport là một giao thức lớp Upper(ULP) chạy trên TCP. TLS cung cấp tính toàn vẹn và bảo mật của dữ liệu đầu cuối)
 
 ![huydv](../images/Screenshot_6.png)

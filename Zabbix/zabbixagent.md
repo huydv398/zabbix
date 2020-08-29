@@ -1,4 +1,5 @@
 # Zabbix Agent 
+
 Bản chất của Zabbix, được phát triển trên ngôn ngữ lập trình C, có thể hỗ trợ trên các nền tảng khác nhau. Đồng thời thu thập dữ liệu như mức sử dụng CPU, Memory, Disk, Network interface sử dụng từ một thiết bị.
 
 ![huydv](../images/Screenshot_13.png)

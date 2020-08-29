@@ -24,7 +24,6 @@ option:
 
 
 1. [Tổng quan, khái niệm Zabbix và các thuật ngữ được sử dụng trong Zabbix](Zabbix/overview1.md)
-1. [Các thuật ngữ được sử dụng trong Zabbix](Zabbix/overview.md)
-2. [Các đặc trưng của Zabbix](Zabbix/features.md)
+2. [Các đặc trưng của Zabbix](Zabbix/zabbixagent.md)
 
 Chuỗi bài viết tổng quan về Zabbix, Giới thiệu tổng quan về Zabbix

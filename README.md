@@ -6,7 +6,7 @@ Chuỗi bài viết tổng quan về **Zabbix**- Phân tích chi tiết về **Z
 2. [Thu thập các Metric của Zabbix](Zabbix/zabbixagent.md)
 3. [Xác định ngưỡng sự cố thông minh](Zabbix/thresholds.md)
 4. [Giao diện người dùng Web Zabbix](/Zabbix/guizabbix.md)
-
+5. [Thông báo và các biện pháp khắc phục](Zabbix/)
 và các thuật ngữ được sử dụng trong Zabbix
 option:
 

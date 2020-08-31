@@ -13,7 +13,7 @@ Sửa đổi tất cả cấu hình giám sát bằng giao diện web. Không c�
 ## Một nơi để kiểm soát mọi thứ
 Giao diện web cung cấp cả cấu hình giám sát và xem dữ liệu thu thập được. Quản trị viên mạng có thể xem và kiểm soát mọi thứ trong một giao diện.
 ## Không khởi động lại.
-Giao diện qeb cung cấp cấu hình tập trung của tất cả các khía cạnh giám sát. Các thay đổi cấu hình sẽ hoạt động ngay lập tức.
+Giao diện web cung cấp cấu hình tập trung của tất cả các khía cạnh giám sát. Các thay đổi cấu hình sẽ hoạt động ngay lập tức.
 
 ## Sẵn sàng UTF-8
 Zabbix hỗ trợ đầy đủ Unicode/UTF-8, cho phép thiết lập đa ngôn ngữ

@@ -11,7 +11,7 @@ Hiển thị nhiều biểu đồ theo yêu cầu trên một màn hình, tự �
 Sửa đổi tất cả cấu hình giám sát bằng giao diện web. Không cần cách sử dụng bảng điều khiển và trình soạn thảo văn bản 
 
 ## Một nơi để kiểm soát mọi thứ
-Giao diện web cung cấp cả cáu hình giám sá và xem dữ liệu thu thập được. Quản trị viên mạng có thể xem và kiểm soát mọi thứ trong một giao diện.
+Giao diện web cung cấp cả cấu hình giám sát và xem dữ liệu thu thập được. Quản trị viên mạng có thể xem và kiểm soát mọi thứ trong một giao diện.
 ## Không khởi động lại.
 Giao diện qeb cung cấp cấu hình tập trung của tất cả các khía cạnh giám sát. Các thay đổi cấu hình sẽ hoạt động ngay lập tức.
 

@@ -6,13 +6,13 @@ Ngay sau khi dữ liệu được thu thập, sử dụng các phương pháp kh
 
 ## Sự dự đoán 
 
-Mặc dù rất tốt khi có các vấn đề được phát hiện, nhưng sẽ tốt hơn nếu có thể dự đoán vấn đề. Vì mục đích đó, các chức năng dự đoán có sẵn trong Zabbix. Zabbix phân tichsxu hướng của dữ liệu đến và xây dựng dự báo về khả năng mọi thứ diễn ra như thế nào, mang đến cho người dùng khả năng chủ động hành động.
+Mặc dù rất tốt khi có các vấn đề được phát hiện, nhưng sẽ tốt hơn nếu có thể dự đoán vấn đề. Vì mục đích đó, các chức năng dự đoán có sẵn trong Zabbix. Zabbix phân tích xu hướng của dữ liệu đến và xây dựng dự báo về khả năng mọi thứ diễn ra như thế nào, mang đến cho người dùng khả năng chủ động hành động.
 
 ## Định nghĩa ngưỡng linh hoạt
 Zabbix cung cấp cho người dùng các tùy chọn xác định ngưỡng thông minh, linh hoạt. Mặc dù ngưỡng cho các trình kích hoạt có thể đơn giản là "lớn hơn x" nhưng có thể sử dụng tất cả các biểu thức logic, chẳng hạn như phép chia, pháp nhân, không bằng nhau, logic AND và OR.
 
 ## Tham chiếu một hoặc nhiều mục hoặc máy chủ
-Sử dụng nhiều Item khác nhau thu được từ các máy chủ khác để xay dựng biểu thức kích hoạt. Điều này cho phép xây dựng các ngưỡng phức tạp, thông minh, giúp giảm thiểu các kết quả giả và do đó cho phep squanr trị viên tập trung vào các vấn đề thực tế.
+Sử dụng nhiều Item khác nhau thu được từ các máy chủ khác để xây dựng biểu thức trigger. Điều này cho phép xây dựng các ngưỡng phức tạp, thông minh, giúp giảm thiểu các kết quả giả và do đó cho phép quản trị viên tập trung vào các vấn đề thực tế.
 ## Phân tích dữ liệu lịch sử
 Kiểm tra trạng thái dữ liệu hiện tại so với trạng thái dữ liệu thu được một thời gian trước. Có thể so sánh các khoảng thời tương tự.
 
@@ -42,7 +42,7 @@ Chỉ cần báo cáo các vấn đề gốc
 Xác định Mức độ nghiêm trọng của Trigger dựa trên mức độ quan trọng. Vì không phải tất cả các trình kích hoạt đều có cùng một mức độ quan trọng, một trong sáu mức độ nghiêm trọng có thể được chỉ định cho trigger. Sau đó, mức độ nghiêm trọng được áp dụng để thể hiện trực quan các yếu tố kích hoạt hoặc có thể được sử dụng để điều chỉnh phản ứng trước các sự kiện vấn đề.
 
 ### Mực độ nghiêm trọng được sử dụng cho :
-* Trình bày trực cho các Triggers
+* Trình bày trực quan các Triggers
 * Âm thanh trong báo động chung
 * Chọn kênh thông báo
 

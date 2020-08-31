@@ -22,8 +22,9 @@ option:
 2. []()
 2. []()
 
-
+# tài liệu
 1. [Tổng quan, khái niệm Zabbix và các thuật ngữ được sử dụng trong Zabbix](Zabbix/overview1.md)
-2. [Các đặc trưng của Zabbix](Zabbix/zabbixagent.md)
+2. [Thu thập các Metric của Zabbix](Zabbix/zabbixagent.md)
+3. [Xác định ngưỡng sự cố thông minh](Zabbix/thresholds.md)
 
 Chuỗi bài viết tổng quan về Zabbix, Giới thiệu tổng quan về Zabbix

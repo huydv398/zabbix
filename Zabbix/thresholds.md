@@ -7,3 +7,5 @@ Ngay sau khi dữ liệu được thu thập, sử dụng các phương pháp kh
 ## Sự dự đoán 
 
 Mặc dù 
+
+![huydv](/images/Screenshot_6.png)

@@ -37,6 +37,7 @@
 4.2 [Các chức năng được bổ sung](#sung)
 
 4.3 [Được sử dụng các Templates](#Templates)
+### Thu thập các Metric trong Zabbix
 
 <a name="Zabbix"></a>
 

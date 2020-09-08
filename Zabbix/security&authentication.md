@@ -18,3 +18,20 @@ Mã hóa dựa trên pre-shared(Khóa chia sẻ trước) và Certificate-based(
 
 ## User permissions - Phân quyền người dùng
 Zabbix có một lược đồ quyền người dùng linh hoạt, có thể được sử dụng hiệu quả để quản lý quyền người dùng trong một lần cài đặt Zabbix hoặc trong một môi trường phân tán
+## User types
+Zabbix hỗ trợ một số kiểu người dùng. Kiểu người dùng được sử dụng để xác định quyền truy cập vào chức năng quản trị và chỉ ddingj các quyền mặc định.
+|Loại người dùng|Miêu tả|
+|-|-|
+|Người dùng Zabbix|Người dùng có quyền truy cập vao Menu giám sát. Người dùng không có quyền truy cập vào bất kỳ tài nguyên nào theo mặc định. Quyền cho các nhóm lưu trữ phải quy định rõ ràng.|
+|Admin Zabbix|Người dùng có quyền truy cập vào Giám sát và Cấu hình. Không có quyền truy cập vào các nhóm máy chủ nào theo mặc định. Quyền đối với các nhóm lưu trữ phải được cấp một cách rõ ràng.|
+|Admin Super Zabbix|Người dùng có quyền truy cập vào mọi thứ: Giám sát, Cấu hình và Quản trị. Người dùng có quyền truy cập vào đọc ghi đối với tất cả các nhóm máy chủ. Không thể thu hồi quyền bằng cách từ chối quyền truy cập vào các nhóm máy chủ cụ thể|
+
+## Cấp quyền truy cập cho máy chủ
+Quyền được cấp cho các nhóm người dùng ở cấp độ nhóm máy chủ. Dó đó, quyền truy cập vào máy chủ phụ thuộc vào loại quyeenfmaf nhóm người dùng có đối với nhóm máy chủ mà máy chủ đó thuộc về. 
+
+Có 3 loại quyền để truy cập máy chủ hoặc nhóm máy chủ:
+* Read-write – a read-write access; Quyền truy cập được phép đọc ghi dữ liệu
+* Read-only – a read-only access; Quyền truy cập chỉ được phép đọc
+* Deny – access denied; Từ chối quyền truy cập
+
+**RW/RO/denied**

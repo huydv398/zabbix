@@ -47,7 +47,7 @@ Bản chất của Zabbix, được phát triển trên ngôn ngữ lập trình
 <a name="Polling"></a>
 
 ## Passive (polling) and Active checks (trapping) Support 
-Zabbix thực hiện kiểm tra dựa trên thời gian, cũng có thể lên lịch thời gian cự thể.
+Zabbix thực hiện kiểm tra dựa trên thời gian, cũng có thể lên lịch thời gian cụ thể.
 <a name="Passive"></a>
 
 ### Passive Check (polling)

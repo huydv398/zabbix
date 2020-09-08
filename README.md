@@ -9,8 +9,7 @@ Chuỗi bài viết tổng quan về **Zabbix**- Phân tích chi tiết về **Z
 5. [Thông báo và các biện pháp khắc phục](Zabbix/notification.md)
 6. [Bảo mật và xác thực](Zabbix/security&authentication.md)
 
-###
-và các thuật ngữ được sử dụng trong Zabbix
+### Các thuật ngữ được sử dụng trong Zabbix
 option:
 
 2. []()

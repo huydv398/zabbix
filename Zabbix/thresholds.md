@@ -16,7 +16,7 @@ Sử dụng nhiều Item khác nhau thu được từ các máy chủ khác đ�
 ## Phân tích dữ liệu lịch sử
 Kiểm tra trạng thái dữ liệu hiện tại so với trạng thái dữ liệu thu được một thời gian trước. Có thể so sánh các khoảng thời tương tự.
 
-So sánh với chuẩn mực, trong đó chuẩn mực là trạng thái hệ thống trong quá khứ. Ví dụ: tải trung bihf của CPU trong giờ qua cao hơn 2 lần so với tải CPU trong cùng kỳ tuần trước.
+So sánh với chuẩn mực, trong đó chuẩn mực là trạng thái hệ thống trong quá khứ. Ví dụ: tải trung bình của CPU trong giờ qua cao hơn 2 lần so với tải CPU trong cùng kỳ tuần trước.
 
 ## Hysteresis- Độ trễ
 Là một chức năng quan trọng cho phép tránh hiện tượng Flapping có thể xảy ra khi dữ liệu đến dao động xunh quanh một ngưỡng đơn giản. Độ trễ có giới hạn trên và giới hạn dưới, đặt kích hoạt ở trạng thái có vấn đề khi đạt đến giới hạn trên và đưa trình kích hoạt về trạng thái bình thường khi dữ liệu thu được dưới ngưỡng.

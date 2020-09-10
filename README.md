@@ -8,7 +8,9 @@ Chuỗi bài viết tổng quan về **Zabbix**- Phân tích chi tiết về **Z
 4. [Giao diện người dùng Web Zabbix](/Zabbix/guizabbix.md)
 5. [Thông báo và các biện pháp khắc phục](Zabbix/notification.md)
 6. [Bảo mật và xác thực](Zabbix/security&authentication.md)
-
+7. [Template](Zabbix/template.md)
+8. [Auto Discovery](Zabbix/discovery.md)
+9. [Giám sát phân tán- Distributed Monitor](Zabbix/Distributed.md)
 ### Các thuật ngữ được sử dụng trong Zabbix
 option:
 

@@ -12,6 +12,9 @@ Chuỗi bài viết tổng quan về **Zabbix**- Phân tích chi tiết về **Z
 8. [Auto Discovery](Zabbix/discovery.md)
 9. [Giám sát phân tán- Distributed Monitor](Zabbix/Distributed.md)
 10. [API Zabbix](Zabbix/API.md)
+
+### Understand
+1. [Zabbix Agent](Zabbix/active&passive.md)
 ### Các thuật ngữ được sử dụng trong Zabbix
 option:
 

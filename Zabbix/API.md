@@ -17,3 +17,5 @@ Giám sát môi trường CNTT là một quy trình 24/7, đòi hỏi sự chú 
 
 Bất kỳ ai cũng có thể phát triển ứng dụng di động cá nhân của riêng mình để quản lý Zabbix hoặc sử dụng các ứng dụng đã có sẵn.
 
+### Giải thích về API Zabbix
+Cung cái một cái nhìn tổng thể về các khả năng và lợi ích của API Zabbix với các ví dụ. Bạn sẽ hiểu cách thực hiện tích hợp và tối ưu hóa để tận dụng lợi thế của Zabbix API và chính Zabbix

@@ -13,6 +13,24 @@ Chuỗi bài viết tổng quan về **Zabbix**- Phân tích chi tiết về **Z
 9. [Giám sát phân tán- Distributed Monitor](Zabbix/Distributed.md)
 10. [API Zabbix](Zabbix/API.md)
 
+### Thực hành với Zabbix
+1. [Cài đặt Zabbix server lên CentOS-7](thuchanh/installzabbix-cent0S7.md)
+2. []()
+2. []()
+2. []()
+2. []()
+2. []()
+2. []()
+2. []()
+2. []()
+2. []()
+2. []()
+2. []()
+2. []()
+2. []()
+2. []()
+
+
 ### Understand
 1. [Zabbix Agent](Zabbix/active&passive.md)
 ### Các thuật ngữ được sử dụng trong Zabbix

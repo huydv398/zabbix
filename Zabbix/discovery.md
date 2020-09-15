@@ -29,9 +29,9 @@ Cung cấp cách tự động tạo các thư mục, trình kích hoạt và bi�
 
 ![huydv](/images/Screenshot_26.png)
 
-Zabbix hỗ trợ một số loại item discovyry:
+Zabbix hỗ trợ một số loại item discovery:
 * File systems
-* network interfacws
+* network interfaces
 * CPUs và CPU cores
 * nhiều SNMP OIDs
 * Sử dụng câu truy vấn

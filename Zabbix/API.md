@@ -9,7 +9,6 @@ Cũng có thể sử dụng API Zabbix để tích hợp các chức năng của
 Khi làm việc trong môi trường tự động đươc thao tác thông qua các hệ thống quản lý cấu hình như Puppet, Chef, Salt hoặc các hệ thống khác, việc tích hợp Zabbix vào các hệ thống như vậy có thể giúp bạn tiết kiệm rất nhiều thời gian khi thêm bớt hoặc nâng cấp phần cứng hoặc phần mềm.
 
 Một công cụ tuyệt vời khác của là khi bạn muốn thêm hàng trăm hoặc hàng nghìn thiết bị để giám sát, áp dụng các quy tắc tùy chỉnh, rất cụ thể mà việc sự dụng giao diện web Zabbix sẽ không thể thực hiện được
-
 ## Phục hồi dữ liệu
 Zabbix có nhiều thông tin về môi trường của tổ chức được lưu trữ trong csdl của nó. Và thông tin này được sử dụng lại trong ứng dụng khác, ví dụ như thống kê, bảo mật, kiểm kê để tạo ra lợi ích lớn hơn nữa cho tổ chức. Và điều này mở ra tầm nhìn rộng hơn của việc sử dụng Zabbix để thu thập thông tin không chỉ về tính khả dụng và hiệu suất của môi trường CNTT mà còn về các chỉ số kinh doanh, KPI, vị trí của các mặt hàng tồn kho, các cảm biến khác nhau(độ ẩm, nhiệt độ, chuyển động, độ gần) và nhiều thông tin khác bao quanh chúng ta trong các hoạt động hằng ngày
 ## Ứng dụng di động

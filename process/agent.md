@@ -8,3 +8,5 @@ Agent thu thập thông tin hoạt động cục bộ và báo cáo dữ liệu 
 * ACTIVE Check: Yêu cầu xử lý phức tạp hơn. Trước tiên, agent phải truy xuất các danh sách **iterm** từ máy chủ Zabbix để xử lý độc lập. sau đó, nó sẽ định kỳ gửi các giá trị mới đến máy chủ.
 
 Việc thực hiện ACTIVE Check hay PASSIVE check được cấu hình bằng cách chọn loại **Iterm** giám sát tương ứng. Agent xử lý các Iterm  thuộc loại agent hoặc active
+
+## Cài đặt Zabbix Agent

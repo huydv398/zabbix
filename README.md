@@ -34,8 +34,8 @@ Chuỗi bài viết tổng quan về **Zabbix**- Phân tích chi tiết về **Z
 1. []()
 ### Thực hành với Zabbix
 1. [Cài đặt Zabbix server lên CentOS-7](thuchanh/installzabbix-cent0S7.md)
-2. []()
-2. []()
+2. [Đăng nhập và cấu hình người dùng](Quickstart/login&user.md)
+2. [Thiết lập Setup cho host](Quickstart/add-new-host.md)
 2. []()
 2. []()
 2. []()

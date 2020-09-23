@@ -9,12 +9,12 @@ Chỉ Superuser mới có quyền truy cập vào **Configuration** và **Admini
 
 ![](/images/Screenshot_42.png)
 
-## Ngăn chặn tấn công BRUTE FORCE 
+### Ngăn chặn tấn công BRUTE FORCE 
 Trong trường hợp 5 lần đăng nhập không thành công liên tiếp, giao diện Zabbix sẽ tạm dừng trong 30 giây để ngăn chặn các tấn công.
 
 Địa chỉ IP của lần đăng nhập không thành công sẽ được hiển thị khi đăng nhập thành công.
 
-### Adding User 
+## Adding User 
 
 Để xem thông tin về các user,
 

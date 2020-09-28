@@ -47,3 +47,4 @@ User Macros có thể được sử dụng trong:
 * Tên trigger và miêu tả
 * Các tham số và hằng số biểu thức trigger
 
+Khi hoàn tất, click **add**, máy chủ sẽ được hiển thị trong danh sách máy chủ

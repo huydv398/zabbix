@@ -22,6 +22,7 @@ yum clean all
 Cài đặt Zabbix server và Agent
 
 `yum install -y zabbix-server-mysql zabbix-agent`
+
 Cài đặt Zabbix frontend
 
 `yum-config-manager --enable rhel-server-rhscl-7-rpms`
@@ -52,7 +53,7 @@ enabled=1
 Lưu và thoát
 ### Install Zabbix frontend packages.
 
-`yum install zabbix-web-mysql-scl zabbix-apache-conf-scl`
+`yum install -y zabbix-web-mysql-scl zabbix-apache-conf-scl`
 
 Đối với một số máy tới bước này gặp lỗi như sau:
 #### Error: Package: zabbix-web-deps-scl-5.0.3-1.el7.noarch (zabbix-frontend)
@@ -61,9 +62,9 @@ Lưu và thoát
 
 Cách sử lý :
 * Cài đặt kho lưu trữ CentOS SCLo RH:
-    * `yum install centos-release-scl-rh`
+    * `yum install -y centos-release-scl-rh`
 * Cài đặt gói rpm rh-php72-php-common:
-    * `yum install rh-php72-php-common`
+    * `yum install -y rh-php72-php-common`
 ### Cài đặt Zabbix Frontend packages.
 
 ` yum install -y zabbix-web-mysql-scl zabbix-apache-conf-scl`
@@ -142,7 +143,7 @@ bỏ ghhi chú và điền múi giờ phù hợp.
 
 Sửa thành
 
-`php_value[date.timezone] = Asia/Ho_Chi_minh`
+`php_value[date.timezone] = Asia/Ho_Chi_Minh`
 
 Lưu và thoát
 

@@ -62,3 +62,34 @@ systemctl enable zabbix-agent
 Để xác minh rằng zabbix agent đang chạy:
 
 `systemctl status zabbix-agent`
+
+## Kiểm tra việc cài đặt. 
+
+### Sang máy zabbix server thực hiện lệnh
+
+`zabbix_get -s <ZABBIX_AGENT_IP> -k agent.version`
+
+![](/images/Screenshot_52.png)
+
+## Tạo host trên Zabbix web 
+`Configuration` -> `Host` -> `Create host`
+
+![](/images/Screenshot_53.png)
+
+Điền thông tin cho Host:
+
+![](/images/Screenshot_54.png)
+
+Chọn template cho host:
+
+![](/images/Screenshot_55.png)
+![](/images/Screenshot_56.png)
+![](/images/Screenshot_57.png)
+
+Chọn **Add** để thêm host.
+
+Đợi khoảng 1 phút rồi load lại web:
+
+* Availability : **ZBX**- Host đã được add thành công và có thể add thêm các monitor option
+
+![](/images/Screenshot_58.png)

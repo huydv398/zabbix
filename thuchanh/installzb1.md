@@ -175,8 +175,11 @@ Cài đặt Zabbix server và Agent
 
 Cài đặt Zabbix frontend
 
-`yum-config-manager --enable rhel-server-rhscl-7-rpms`
-
+```
+sudo yum-config-manager --enable zabbix-frontend
+sudo yum -y install centos-release-scl
+sudo yum -y install zabbix-web-mysql-scl zabbix-apache-conf-scl
+```
 Chỉnh sửa file `/etc/yum.repos.d/zabbix.repo` và enable  zabbix-frontend repository.
 
 `vi /etc/yum.repos.d/zabbix.repo`

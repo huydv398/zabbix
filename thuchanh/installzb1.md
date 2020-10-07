@@ -112,6 +112,7 @@ systemctl enable --now mariadb
 Sau khi thiết lập, Kích hoạt mariadb để khởi động cùng hệ thống
 
 ### 4.Cài đặt PHP
+#### PHP 7.2
 * Cài đặt phiên bản mới nhất.Tiến hành thêm kho Remi CentOS:
 
 `yum install -y epel-release`
@@ -171,7 +172,19 @@ yum clean all
 Cài đặt Zabbix server và Agent
 
 `yum install -y zabbix-server-mysql zabbix-agent  zabbix-get`
+Đối với một số máy tới bước này gặp lỗi như sau:
+#### Error: Package: zabbix-web-deps-scl-5.0.3-1.el7.noarch (zabbix-frontend)
 
+![](/images/Screenshot_31.png)
+
+Cách sử lý :
+* Cài đặt kho lưu trữ CentOS SCLo RH:
+    * `yum install -y centos-release-scl-rh`
+* Cài đặt gói rpm rh-php72-php-common:
+    * `yum install -y rh-php72-php-common`
+### Cài đặt Zabbix Frontend packages.
+
+` yum install -y zabbix-web-mysql-scl zabbix-apache-conf-scl`
 Cài đặt Zabbix frontend
 
 `yum-config-manager --enable rhel-server-rhscl-7-rpms`
@@ -204,19 +217,7 @@ Lưu và thoát
 
 `yum install -y zabbix-web-mysql-scl zabbix-apache-conf-scl`
 
-Đối với một số máy tới bước này gặp lỗi như sau:
-#### Error: Package: zabbix-web-deps-scl-5.0.3-1.el7.noarch (zabbix-frontend)
 
-![](/images/Screenshot_31.png)
-
-Cách sử lý :
-* Cài đặt kho lưu trữ CentOS SCLo RH:
-    * `yum install -y centos-release-scl-rh`
-* Cài đặt gói rpm rh-php72-php-common:
-    * `yum install -y rh-php72-php-common`
-### Cài đặt Zabbix Frontend packages.
-
-` yum install -y zabbix-web-mysql-scl zabbix-apache-conf-scl`
 
 Chạy lại lệnh
 ### Tạo database ban đầu 

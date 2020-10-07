@@ -41,15 +41,35 @@ Là cài đặt hệ điều hành hay môi trường để các phần mềm ho
 
 
 ### 3.Cài hệ quản trị cơ sở dữ liệu
+`yum remove mariadb-server`
+
+Thêm MariaDB YUM repository vào CentOS 7
+```
+cat <<EOF | sudo tee /etc/yum.repos.d/MariaDB.repo
+[mariadb]
+name = MariaDB
+baseurl = http://yum.mariadb.org/10.4/centos7-amd64
+gpgkey=https://yum.mariadb.org/RPM-GPG-KEY-MariaDB
+gpgcheck=1
+EOF
+```
+Clean yum cache index:
+
+`yum makecache fast`
+
 Trên thực tế với LAMP, bạn có thể sử dụng MySQL hoặc Mariadb.
 
 * Trên cửa sổ Terminal, tiến hành cài Mariadb:
 
-`yum -y install mariadb mariadb-server `
+`yum -y install MariaDB-server MariaDB-client`
+* Kiểm tra phiêm bản sau khi cài
 
+`rpm -qi MariaDB-server`
 * Tiến hành khởi động mariadb service: 
-
-`systemctl start mariadb `
+```
+systemctl start mariadb 
+systemctl enable --now mariadb
+```
 
 * Cài lại mật khẩu cho root của cơ sở dữ liệu:
 
@@ -94,7 +114,7 @@ Sau khi thiết lập, Kích hoạt mariadb để khởi động cùng hệ th�
 ### 4.Cài đặt PHP
 * Cài đặt phiên bản mới nhất.Tiến hành thêm kho Remi CentOS:
 
-`yum install -y epel-release yum-utils `
+`yum install -y epel-release`
 
 `yum update -y epel-release`
 
@@ -116,8 +136,17 @@ Tiến hành cài đặt PHP. Ở đây ta cần lưu ý về phiên bản cài 
 `yum-config-manager --enable remi-php73`
 
 * Cài đặt các Option php:
+
 `yum -y install php php-opcache php-mysql`
 
+* Tắt firewall và selinux
+```
+sudo systemctl disable firewalld
+sudo systemctl stop firewalld
+sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/sysconfig/selinux
+sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/selinux/config
+setenforce 0
+```
 * Tiến hành kiểm tra kết quả. Ta thêm file sau:
 
 `echo "<?php phpinfo(); ?>" > /var/www/html/info.php`
@@ -132,7 +161,7 @@ Tiến hành cài đặt PHP. Ở đây ta cần lưu ý về phiên bản cài 
 
 
 
-
+## Cài đặt Zabbix
 Cài đặt Kho lưu trữ Zabbix:
 
 ```

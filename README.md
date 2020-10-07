@@ -25,7 +25,8 @@ Chuỗi bài viết tổng quan về **Zabbix**- Phân tích chi tiết về **Z
 ### Thực hành với Zabbix
 1. [Cài đặt Zabbix server lên CentOS-7](thuchanh/installzabbix-cent0S7.md)
 2. [Đăng nhập và cấu hình người dùng](Quickstart/login&user.md)
-2. [Thiết lập Setup cho host](Quickstart/add-new-host.md)
+2. [Thiết lập Zabbix Agent](thuchanh/installzabbix.md)
+2. [Thiết lập Zabbix Agent](Quickstart/add-new-host.md)
 2. [Thêm Host mới](Quickstart/)
 2. []()
 2. []()
@@ -41,7 +42,7 @@ Chuỗi bài viết tổng quan về **Zabbix**- Phân tích chi tiết về **Z
 ### Các thuật ngữ được sử dụng trong Zabbix
 option:
 
-2. []()
+2. [Phân tích file cấu hình của Zabbix](thuchanh/note/paramater.md)
 2. []()
 2. []()
 

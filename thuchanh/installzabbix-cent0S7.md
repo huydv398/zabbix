@@ -21,7 +21,7 @@ yum clean all
 ```
 Cài đặt Zabbix server và Agent
 
-`yum install -y zabbix-server-mysql zabbix-agent`
+`yum install -y zabbix-server-mysql zabbix-agent  zabbix-get`
 
 Cài đặt Zabbix frontend
 

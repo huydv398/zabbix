@@ -36,11 +36,9 @@ Chỉnh sửa file cấu hình:
 Thực hiện sửa đổi với các thuộc tính sau:
 
 ```
-Server=<Thay đổi bằng địa chỉ IP của máy chủ Zabbix server>
-ServerActive=<Thay đổi bằng địa chỉ IP của máy chủ Zabbix server>
-Hostname=<Tên Zabbix server>
-HostMetadata=Linux
-HostnameItem=system.hostname
+Server= <Thay đổi IP Zabbix server>
+ServerActive= <Thay đổi IP Zabbix server>
+Hostname= <Tên Zabbix server>
 ```
 ## Cấu hình tường lửa cho Zabbix Agent
 Zabbix Agent phải có khả năng giao tiếp qua tTCP port 10050

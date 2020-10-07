@@ -261,7 +261,7 @@ Bye
 ```
 * Database name: `zabbix`
 * Username: `huyzabbix`
-* password: `huydv`
+* Password: `huydv`
 * Phân quyền: có quyền đối với database `zabbix.*`
 
 Trên máy chủ lưu trữ Zabbix nhập lược đồ và dữ liệu ban đầu. Bạn sẽ được nhắc nhập mật khẩu mới tạo của mình.
@@ -274,6 +274,9 @@ Trên máy chủ lưu trữ Zabbix nhập lược đồ và dữ liệu ban đ�
 `vi /etc/zabbix/zabbix_server.conf`
 
 ```
+DBHost=localhost
+DBName=[Database name]
+DBUser=[Username]
 DBPassword=[password]
 ```
 

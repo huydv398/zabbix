@@ -90,6 +90,6 @@ Chọn **Add** để thêm host.
 
 Đợi khoảng 1 phút rồi load lại web:
 
-* Availability : **ZBX**- Host đã được add thành công và có thể add thêm các monitor option
+* Availability : **ZBX**- Host đã được add thành công và có thể add thêm các monitor options              
 
 ![](/images/Screenshot_58.png)

@@ -28,11 +28,11 @@ Tab **Item** chứa các thuộc tính chung của Item
 
 |Tham số|Miêu tả|
 |-|-|
-|Name|Tên Item. Lưu ý rằng việc sử dụng vị trí macros ($1, $2...$9- tham chiếu đến tham số thứ nhất, thứ hai// thứ 9 của item key) Hiện không được dùng nữa.</n> Ví dụ, Free disk space on $1. nếu item key là "`vfs.fs.size[/,free]`", mô tả sẽ tự động thay đổi "**Free disk space on /**" |
+|Name|Tên Item. Lưu ý rằng việc sử dụng vị trí macros ($1, $2...$9- tham chiếu đến tham số thứ nhất, thứ hai// thứ 9 của item key) Hiện không được dùng nữa.</br> Ví dụ, Free disk space on $1. nếu item key là "`vfs.fs.size[/,free]`", mô tả sẽ tự động thay đổi "**Free disk space on /**" |
 |Type|Loại Item. Xem các phần Item [type](/config/info/Item-type.md)|
-|Key|Tối đa 2048 ký tự. Các Item được hỗ trợ [Item type](/config/info/Item-type.md). Item key phải là duy nhất trong một máy chủ. Nếu khóa là ` Zabbix Agent` |
-|Host interface|dòng 1\   dòng 2|
-|type of infomation ||
+|Key|Tối đa 2048 ký tự. Các Item được hỗ trợ [Item type](/config/info/Item-type.md). Item key phải là duy nhất trong một máy chủ. Nếu khóa là ` Zabbix Agent`,`Zabbix agent (active)`, `Simple check` hoặc `Zabbix aggregate`, Giá trị của key phải được hỗ trợ bởi Zabbix agent hoặc zabbix server  |
+|Host interface|Chọn Host interface. Trường này có sẵn khi chỉnh sửa một item ở cấp độ host|
+|type of infomation |Loại dữ liệu được lưu trữ trong cơ sở dữ liệu sau khi chuyển đổi, nếu có: **Numeric (unsigned)**- 64 bit số nguyên không dấu, **Numeric (float)**- số nguyên và số dấu phẩy động, **Character**- Dữ liệu văn bản ngắn, **Log**- Dữ liệu văn bản dài với các thuộc tính liên quan đến log(timestamp, source, mức độ nghiêm trong ) |
 |Units||
 |Update interval||
 |custom intervals||

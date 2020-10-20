@@ -21,29 +21,46 @@ Chuỗi bài viết tổng quan về **Zabbix**- Phân tích chi tiết về **Z
 1. []()
 1. []()
 1. []()
+
+
 ### Quickstart
 1. [](Quickstart/)
 2. [New host](Quickstart/add-new-host.md)
 3. [New Item](Quickstart/new-item.md)
 4. [New trigger](Quickstart/new-trigger.md)
-5. [](Quickstart/)
-6. [](Quickstart/)
+
+
 ### Thực hành với Zabbix
 1. [Cài đặt Zabbix server lên CentOS-7](thuchanh/installzb1.md)
 2. [Đăng nhập và cấu hình người dùng](Quickstart/login&user.md)
 3. [Thiết lập Zabbix Agent - CentOS7](thuchanh/installagent.md)
 4. [Cài đặt Zabbix Agent giám sát Ubuntu 1804](thuchanh/installzb-u18.md)
-2. [gent]()
+2. [Cài đặt Zabbix Agent giám sát Window Server](thuchanh/installzb-win.md)
 2. [Thêm Host mới](Quickstart/)
 2. [Add Item giám sát host](thuchanh/)
-2. []()
-2. []()
-2. []()
-2. []()
-2. []()
+2. [Cài đặt Zabbix APPLIANCE](APPLIANCE/setup.md)
 
-[Cài đặt Zabbix APPLIANCE](APPLIANCE/setup.md)
+## Configuration
+1. [Hosts and host groups](/config/host.md)
+1. [Inventory](/config/Inventory.md)
+1. [Item](/config/items.md)
 
+1. [Tạo Item](/config/Item/Creating-an-item.md)
+1. []()
+1. []()
+1. []()
+1. []()
+1. []()
+1. []()
+1. []()
+1. []()
+1. []()
+1. []()
+1. []()
+1. []()
+1. []()
+1. []()
+1. []()
 ### Understand
 1. [Zabbix Agent](Zabbix/active&passive.md)
 ### Các thuật ngữ được sử dụng trong Zabbix

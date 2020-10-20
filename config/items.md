@@ -30,8 +30,8 @@ Tab **Item** chứa các thuộc tính chung của Item
 |-|-|
 |Name|Tên Item. Lưu ý rằng việc sử dụng vị trí macros ($1, $2...$9- tham chiếu đến tham số thứ nhất, thứ hai// thứ 9 của item key) Hiện không được dùng nữa.</n> Ví dụ, Free disk space on $1. nếu item key là "`vfs.fs.size[/,free]`", mô tả sẽ tự động thay đổi "**Free disk space on /**" |
 |Type|Loại Item. Xem các phần Item [type](/config/info/Item-type.md)|
-|Key|Tối đa 2048 ký tự.|
-|Host interface|dòng 1.  dòng 2|
+|Key|Tối đa 2048 ký tự. Các Item được hỗ trợ [Item type](/config/info/Item-type.md). Item key phải là duy nhất trong một máy chủ. Nếu khóa là ` Zabbix Agent` |
+|Host interface|dòng 1\   dòng 2|
 |type of infomation ||
 |Units||
 |Update interval||

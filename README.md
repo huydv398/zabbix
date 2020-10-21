@@ -45,7 +45,7 @@ Chuỗi bài viết tổng quan về **Zabbix**- Phân tích chi tiết về **Z
 1. [Inventory](/config/Inventory.md)
 1. [Item](/config/items.md)
 
-1. [Tạo Item](/config/Item/Creating-an-item.md)
+1. [Tạo Item](/config/Item/.md)
 1. []()
 1. []()
 1. []()

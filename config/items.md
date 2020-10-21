@@ -103,5 +103,5 @@ Như hình bên dưới mình đã nhập thông tin sai cho interface
 ## Giới hạn dữ liệu văn bản
 Giới hạn dữ liệu văn bản phụ thuộc vào phần phự trợ cơ sở dữ liệu. Trước khi lưu trữ các giá trị trong cơ sở dữ liệu, chúng được cắt bớt để phù hợp với giới hạn loại giá trị cơ sở dữ liệu:
 
-![](/images/Screenshot_73.png)
+![](/images/Screenshot_74.png)
 

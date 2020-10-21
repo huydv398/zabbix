@@ -51,10 +51,8 @@ User Macros có thể được sử dụng trong:
 Các tab Encryption cho phép bạn yêu cầu mã hóa kết nối tới máy chủ
 |Tham số|Miêu tả|
 |-|-|
-||Các Zabbix server hoặc Proxy kết nối với các Zabbix Agent trên máy chủ: Không mã hóa(mặc định), sử dụng PSK(pre-shared key), hoặc certificate|
-||Chọn loại kết nối được phép từ máy chủ(tức là từ agent và sender). Một số kiểu kết nối có thể được chọn cùng một lúc(hữu ích cho việc thử nghiệm và chuyển sang kiểu kết nối khác. Mặc định là không mã hóa|
-||Chứng chỉ được xác thực đầu tiên với CA(certificate authority- tổ chức phát hành chứng chỉ). Nếu nó hợp lệ, được ký duyệt bởi CA, thì Issuer có thể được sử dụng để hạn chế hơn nữa CA được phép. Trường này được thiết kế được sử dụng nếu cài đặt zabbix của bạn sử dụng chứng chỉ từ nhiều CA. Nếu trường này trống thì bất kỳ CA nào cũng được chấp nhận.|
-||Đối tượng được phép của chứng chỉ. Chứng chỉ được xác thực đầu tiên với CA. Nếu nó hợp lệ được ký bởi CA, thi Subject có thể được sử dụng để chỉ cho phép một giá trị của chuỗi Subject. Nếu trường này trống thì bất kỳ chứng chỉ hợp lệ nào được ký bởi CA đã được cấu hình đều được chấp nhận.|
-||Chuỗi nhận dạng Pre-shared key. Không đưa thông tin nhạy cảm vào PSK identity, nó được truyền không được mã hóa qua mạng để thông báo cho người nhạn biết PKS sẽ sử dụng|
-
-## Tạo một host groups
+|Connections to host|Các Zabbix server hoặc Proxy kết nối với các Zabbix Agent trên máy chủ: Không mã hóa(mặc định), sử dụng PSK(pre-shared key), hoặc certificate|
+|Connections from host|Chọn loại kết nối được phép từ máy chủ(tức là từ agent và sender). Một số kiểu kết nối có thể được chọn cùng một lúc(hữu ích cho việc thử nghiệm và chuyển sang kiểu kết nối khác. Mặc định là không mã hóa|
+|Issuer|Chứng chỉ được xác thực đầu tiên với CA(certificate authority- tổ chức phát hành chứng chỉ). Nếu nó hợp lệ, được ký duyệt bởi CA, thì Issuer có thể được sử dụng để hạn chế hơn nữa CA được phép. Trường này được thiết kế được sử dụng nếu cài đặt zabbix của bạn sử dụng chứng chỉ từ nhiều CA. Nếu trường này trống thì bất kỳ CA nào cũng được chấp nhận.|
+|Subject|Đối tượng được phép của chứng chỉ. Chứng chỉ được xác thực đầu tiên với CA. Nếu nó hợp lệ được ký bởi CA, thi Subject có thể được sử dụng để chỉ cho phép một giá trị của chuỗi Subject. Nếu trường này trống thì bất kỳ chứng chỉ hợp lệ nào được ký bởi CA đã được cấu hình đều được chấp nhận.|
+|PSK identity|Chuỗi nhận dạng Pre-shared key. Không đưa thông tin nhạy cảm vào PSK identity, nó được truyền không được mã hóa qua mạng để thông báo cho người nhạn biết PKS sẽ sử dụng|

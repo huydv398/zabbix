@@ -44,9 +44,7 @@ Chuỗi bài viết tổng quan về **Zabbix**- Phân tích chi tiết về **Z
 1. [Hosts and host groups](/config/host.md)
 1. [Inventory](/config/Inventory.md)
 1. [Item](/config/items.md)
-
-1. [Tạo Item](/config/Item/.md)
-1. []()
+1. [Trigger](/config/trigger.md)
 1. []()
 1. []()
 1. []()

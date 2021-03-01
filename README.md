@@ -47,7 +47,7 @@ Chuỗi bài viết tổng quan về **Zabbix**- Phân tích chi tiết về **Z
 1. [Trigger](/config/trigger.md)
 1. [Event](/config/event.md)
 1. [Visualization](/config/Visualization.md)
-1. []()
+1. [Alert Email notification](/config/alert-email.md)
 1. []()
 1. []()
 1. []()

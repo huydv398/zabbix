@@ -2,6 +2,9 @@
 
 ## Mô hình
 ## Chuẩn bị
+* Hệ điều hành CentOS-7
+* Máy chủ được kết nối ra môi trường internet
+* Đối với các máy chủ giám sát đi qua môi trường Firewall, yêu cầu Agent mở port TCP:10050 và 10051 đối với chiều ngược lại
 ## Lưu ý khi cài đặt
 * Cài đặt kho lưu trữ
 * Cài đặt server/agent/Frontend

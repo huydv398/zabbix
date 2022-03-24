@@ -201,4 +201,4 @@ Mã hóa và xác thực mạnh mẽ cho tất cả các thành phần dựa tr�
 
 Nguồn tham khảo 
 * [Zabbix](https://www.zabbix.com/documentation/)
-* [SLIDESHARE](https://www.slideshare.net/Zabbix/alexei-vladishev-zabbix-monitoring-solution-for-everyone)
+* [SLIDESHARE-Zabbix](https://www.slideshare.net/Zabbix/alexei-vladishev-zabbix-monitoring-solution-for-everyone)
